@@ -37,29 +37,29 @@ document.querySelectorAll(".fade-up").forEach((el)=>{
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".menu a");
 
-window.addEventListener("scroll",()=>{
+window.addEventListener("scroll", () => {
 
-    let current="";
+    let currentSection = "";
 
-    sections.forEach(section=>{
+    sections.forEach(section => {
 
-        const top=section.offsetTop-150;
+        const sectionTop = section.offsetTop - 120;
+        const sectionHeight = section.offsetHeight;
 
-        const height=section.clientHeight;
+        if (window.scrollY >= sectionTop &&
+            window.scrollY < sectionTop + sectionHeight) {
 
-        if(pageYOffset>=top){
-
-            current=section.getAttribute("id");
+            currentSection = section.id;
 
         }
 
     });
 
-    navLinks.forEach(link=>{
+    navLinks.forEach(link => {
 
         link.classList.remove("active");
 
-        if(link.getAttribute("href")==="#"+current){
+        if (link.getAttribute("href") === "#" + currentSection) {
 
             link.classList.add("active");
 

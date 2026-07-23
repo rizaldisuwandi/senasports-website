@@ -7,7 +7,7 @@
 
     <title>SENA Sports Indonesia | Premium Badminton Equipment</title>
 
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="images/SENA LOGO ORANGE.PNG">
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -16,16 +16,10 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-    <!-- <i class="fa-solid fa-medal"></i>
-
-    <i class="fa-solid fa-feather"></i>
-
-    <i class="fa-solid fa-shield"></i>
-
-    <i class="fa-solid fa-award"></i> -->
-
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+
+    
 </head>
 
 <body>
@@ -39,23 +33,22 @@
 
             <div class="container">
 
-                <a href="index.html" class="logo">
+                <a href="#index" class="logo">
                     <img src="images/SENA TYPOGRAPHY.png" loading="lazy" alt="SENA Sports">
                 </a>
 
                 <ul class="menu">
+                     <li><a href="#home">Home</a></li>
 
-                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
 
-                    <li><a href="products.html">Premium Products</a></li>
+                    <li><a href="#products">Premium Products</a></li>
 
-                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
 
-                    <li><a href="reseller.html">Reseller</a></li>
+                    <li><a href="#reseller">Reseller</a></li>
 
-                    <li><a href="about.html">About Us</a></li>
-
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
 
                 </ul>
 
@@ -67,32 +60,111 @@
 
     <!-- ================= HERO ================= -->
 
-    <section class="hero fade-up">
+    <section id="home" class="container hero fade-up">
 
-        <div class="hero-overlay"></div>
+        <div class="hero-container">
 
-        <div class="hero-content">
+            <div class="hero-left">
 
-            <h1>
-                Premium Badminton<br>
-                Equipment Made<br>
-                For Champions.
-            </h1>
+                <span class="hero-tag">
+                    INDONESIAN BADMINTON BRAND
+                </span>
 
-            <p>
-                High quality goose feather shuttlecocks and badminton accessories
-                trusted by clubs, coaches, and players across Indonesia.
-            </p>
+                <h1>
+                    Premium Badminton<br>
+                    Equipment<br>
+                    Made For Champions.
+                </h1>
 
-            <div class="hero-buttons">
-                <a href="products.html" class="btn btn-primary">
-                    Explore Our Collections
-                </a>
+                <p>
 
-                <a href="https://wa.me/6281410149843"
-                class="btn btn-secondary">
-                    Contact Us
-                </a>
+                    Premium goose feather shuttlecocks and badminton
+                    accessories trusted by badminton clubs,
+                    coaches and players across Indonesia.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#products" class="btn btn-primary">
+
+                        Explore Products
+
+                    </a>
+
+                    <a href="https://wa.me/6281410149843"
+                    class="btn btn-secondary">
+
+                        WhatsApp Us
+
+                    </a>
+
+                </div>
+
+                <div class="hero-features">
+
+                    <div>
+
+                        <i class="fa-solid fa-feather"></i>
+
+                        Premium Feather
+
+                    </div>
+
+                    <div>
+
+                        <i class="fa-solid fa-award"></i>
+
+                        Tournament Quality
+
+                    </div>
+
+                    <div>
+
+                        <i class="fa-solid fa-shield"></i>
+
+                        Trusted Brand
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-right">
+
+                <img
+                src="images/gallery/DSCF1497.jpg"
+                alt="SENA PRO">
+
+            </div>
+
+        </div>
+        
+    </section>
+
+    <!-- ================= Trusted By ================= -->
+
+    <section class="container trusted fade-up">
+
+        <div class="container">
+
+            <span class="section-tag">
+                TRUSTED BY
+            </span>
+
+            <div class="trusted-list">
+
+                <div>🏸 Badminton Clubs</div>
+
+                <div>🎯 Coaches</div>
+
+                <div>👥 Communities</div>
+
+                <div>🏪 Retail Partners</div>
+
+                <div>🎓 Training Academies</div>
+
             </div>
 
         </div>
@@ -101,7 +173,7 @@
 
     <!-- ================= WHY SENA ================= -->
 
-    <section class="why-sena fade-up">
+    <section id="about" class="container why-sena fade-up">
 
         <div class="section-title">
             <span>WHY SENA</span>
@@ -150,9 +222,9 @@
 
     </section>
 
-    <!-- ================= PRODUCTS ================= -->
+    <!-- ================= Featured Products ================= -->
 
-    <section class="featured-products fade-up">
+    <section id="products" class="container featured-products fade-up">
 
         <div class="section-title">
 
@@ -170,10 +242,16 @@
 
             <div class="product-large">
 
+
                 <img src="images/gallery/DSCF1458.jpg" loading="lazy" alt="SENA PRO">
 
                 <div class="product-info">
-
+                    <div class="product-rating">
+                        ★★★★★
+                    </div>
+                    <span class="badge">
+                        MOST DURABLE / TOURNAMENT
+                    </span>
                     <span>Professional Series</span>
 
                     <h3>SENA PRO</h3>
@@ -182,7 +260,7 @@
                         Premium goose feather shuttlecock designed for advanced players and tournaments.
                     </p>
 
-                    <a href="products.html">
+                    <a href="#products">
                         Learn More →
                     </a>
 
@@ -195,12 +273,14 @@
                 <img src="images/products/standard.png" loading="lazy" alt="Standard">
 
                 <div class="product-info">
-
+                    <span class="badge">
+                        BEST SELLER
+                    </span>
                     <span>Match Series</span>
 
                     <h3>SENA Standard</h3>
 
-                    <a href="products.html">
+                    <a href="#products">
                         View Product →
                     </a>
 
@@ -213,12 +293,14 @@
                 <img src="images/products/training.png" loading="lazy" alt="Training">
 
                 <div class="product-info">
-
+                    <span class="badge">
+                        TRAINING
+                    </span>
                     <span>Training Series</span>
 
                     <h3>SENA Training</h3>
 
-                    <a href="products.html">
+                    <a href="#products">
                         View Product →
                     </a>
 
@@ -231,12 +313,14 @@
                 <img src="images/products/towel-grip.png" loading="lazy" alt="Grip">
 
                 <div class="product-info">
-
+                    <span class="badge">
+                        COMFORT
+                    </span>
                     <span>Accessories</span>
 
                     <h3>SENA Towel Grip</h3>
 
-                    <a href="products.html">
+                    <a href="#products">
                         View Product →
                     </a>
 
@@ -249,12 +333,14 @@
                 <img src="images/products/premium-grip.png" loading="lazy" alt="Grip">
 
                 <div class="product-info">
-
+                    <span class="badge">
+                        HIGH QUALITY
+                    </span>
                     <span>Accessories</span>
 
                     <h3>SENA Grip</h3>
 
-                    <a href="products.html">
+                    <a href="#products">
                         View Product →
                     </a>
 
@@ -266,9 +352,9 @@
 
     </section>
 
-    <!-- ================= BRAND STORY ================= -->
+    <!-- ================= Material Story ================= -->
 
-    <section class="brand-story fade-up">
+    <section class="container brand-story fade-up">
 
         <div class="story-image">
 
@@ -321,110 +407,9 @@
 
     </section>
 
-    <section class="stats fade-up">
-
-        <div class="stat-item">
-
-            <h2>12+</h2>
-
-            <p>Premium Products</p>
-
-        </div>
-
-        <div class="stat-item">
-
-            <h2>100+</h2>
-
-            <p>Reseller Partners</p>
-
-        </div>
-
-        <div class="stat-item">
-
-            <h2>1000+</h2>
-
-            <p>Satisfied Customers</p>
-
-        </div>
-
-        <div class="stat-item">
-
-            <h2>100%</h2>
-
-            <p>Quality Inspection</p>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= PRODUCT CATEGORY ================= -->
-
-    <section class="categories fade-up">
-
-        <div class="section-title">
-
-            <span>PRODUCT COLLECTION</span>
-
-            <h2>Find Your Perfect Match</h2>
-
-            <p>
-                Whether you're a beginner, club player or professional athlete,
-                SENA has the right shuttlecock for your game.
-            </p>
-
-        </div>
-
-        <div class="category-grid">
-
-            <div class="category-card">
-
-                <img src="images/products/standard.png" loading="lazy" alt="SENA Standard">
-
-                <h3>SENA Standard</h3>
-
-                <p>
-                    Daily Match
-                </p>
-
-                <h4>Rp110.000</h4>
-
-            </div>
-
-            <div class="category-card">
-
-                <img src="images/products/pro.png" loading="lazy" alt="SENA PRO">
-
-                <h3>SENA PRO</h3>
-
-                <p>
-                    Tournament Performance
-                </p>
-
-                <h4>Rp220.000</h4>
-
-            </div>
-
-            <div class="category-card">
-
-                <img src="images/products/training.png" loading="lazy" alt="SENA Training">
-
-                <h3>SENA Training</h3>
-
-                <p>
-                    Skill Development
-                </p>
-
-                <h4>Rp30.000</h4>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <section class="gallery-preview fade-up">
+    <!-- ================= GALLERY ================= -->
+    
+    <section id="gallery" class="container gallery-preview fade-up">
 
     <div class="section-title">
 
@@ -436,25 +421,50 @@
 
     <div class="gallery">
 
-        <img src="images/gallery/DSCF1455.jpg" loading="lazy">
-
-        <img src="images/gallery/DSCF1458.jpg" loading="lazy" >
-
-        <img src="images/gallery/DSCF1497.jpg" loading="lazy">
-
-        <img src="images/gallery/DSCF7550.JPEG" loading="lazy">
-
-        <img src="images/gallery/DSCF7572.JPEG" loading="lazy">
-
-        <img src="images/gallery/DSCF7622.JPEG" loading="lazy">
+        <div class="gallery-item">
+            <img src="images/gallery/DSCF1455.jpg" loading="lazy">
+            <div class="gallery-overlay">
+                View Photo
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/gallery/DSCF1458.jpg" loading="lazy" >
+            <div class="gallery-overlay">
+                View Photo
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/gallery/DSCF1497.jpg" loading="lazy">
+            <div class="gallery-overlay">
+                View Photo
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/gallery/DSCF7550.JPEG" loading="lazy">
+            <div class="gallery-overlay">
+                View Photo
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/gallery/DSCF7572.JPEG" loading="lazy">
+            <div class="gallery-overlay">
+                View Photo
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/gallery/DSCF7622.JPEG" loading="lazy">
+            <div class="gallery-overlay">
+                View Photo
+            </div>
+        </div>                
 
     </div>
 
     </section>
 
+    <!-- ================= RESELLER ================= -->
 
-
-    <section class="reseller-cta fade-up" id="reseller">
+    <section id="reseller" class="container reseller-cta fade-up">
 
         <div class="container">
 
@@ -505,7 +515,7 @@
 
     <!-- ================= CONTACT ================= -->
 
-    <section class="contact fade-up" id="contact">
+    <section id="contact" class="container contact fade-up">
 
         <div class="container contact-grid">
 
@@ -552,7 +562,6 @@
         </div>
 
     </section>
-
 
     <button id="topBtn">
 
@@ -652,7 +661,15 @@
 </li> -->
 
 
-<script src="js/main.js"></script>
+    <script src="js/main.js"></script>
+    <a href="https://wa.me/6281410149843"
+        class="floating-whatsapp"
+        target="_blank"
+        aria-label="Chat with SENA Sports on WhatsApp">
+
+            <i class="fa-brands fa-whatsapp"></i>
+
+    </a>
 </body>
 
 </html>
